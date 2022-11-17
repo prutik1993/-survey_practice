@@ -8,7 +8,7 @@
         total number of female participants -> variable name can be totalNumberOfFemaleParticipants
          */
 
-        // 2. Instance variables
+        //  Instance variables
         // Static -> belong to the Class. What does every sword has?
         public static int totalNumberOfParticipants;
         public static int totalNumberOfMaleParticipants;
@@ -31,28 +31,19 @@
             this.age = age;
             this.gender = gender;
         }
-//Create a static void method addParticipants() that will increase totalNumberOfParticipants by 1
-
-
-        //Create a static void method addMaleParticipants() that will increase totalNumberOfMaleParticipants by 1
-
-
-        //Create a static void method addFemaleParticipants() that will increase totalNumberOfFemaleParticipants by 1
-
-
-
-        //Override toString() method and implement a new body that will return all information about a Participant
-
+        //Create a static void method addParticipants() that will increase totalNumberOfParticipants by 1
         public static void addParticipants(){
             totalNumberOfParticipants++;
         }
-        public static void addFemaleParticipants(){
-            totalNumberOfFemaleParticipants++;
-        }
+        //Create a static void method addMaleParticipants() that will increase totalNumberOfMaleParticipants by 1
         public static void addMaleParticipants(){
             totalNumberOfMaleParticipants++;
         }
-
+        //Create a static void method addFemaleParticipants() that will increase totalNumberOfFemaleParticipants by 1
+        public static void addFemaleParticipants(){
+            totalNumberOfFemaleParticipants++;
+        }
+        //Override toString() method and implement a new body that will return all information about a Participant
         @Override
         public String toString() {
             return "Participant{" +
